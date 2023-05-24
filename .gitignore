@@ -7,6 +7,17 @@
 *.obj
 *.elf
 
+# Ignore Meson build files
+build/
+meson-debug/
+meson-private/
+compile_commands.json
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+*.swp
+
 # Linker output
 *.ilk
 *.map
@@ -50,3 +61,19 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+*.swp
+
+# Ignore backup files
+*~
+*.bak
+
+# Ignore generated documentation
+doc/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
